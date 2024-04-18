@@ -2,7 +2,8 @@ const words = "They had made it to Las Vegas, wide-eyed and with so much hope an
 const wordsCount = words.length;
 function randomWord()
 {
-  const randomIndex = Math.ceil(Math.random()*wordsCount+10);
+  const randomIndex = Math.ceil(Math.random()*wordsCount);
+  
     return words[randomIndex];
 }
 
